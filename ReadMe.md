@@ -16,8 +16,8 @@ So please bear with the low quality stuff.
 Well the program will ask you for the range for which you want to add the database and will only add those programs which
 have complete database.
 I am really lazy so ive created a small parsing snippet myselves , just to avoid the monotonus parsing work.... :D
-  `i = i[i.find('_')+1:]
-  i = i[0:i.find('_')]`
+  `i = i[i.find('_')+1:]`
+  `i = i[0:i.find('_')]`
 
 If you guys want to contact me , just shoot an email to me @  `pps.pranav@gmail.com`
 and you are free to shoot abuse, arrows, bullets what every your countries law allows you to ... 
