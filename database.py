@@ -5,22 +5,22 @@ import re
     Lets call the module which will connect your program to IMDB's database. Please make sure that 
     internet is connected...
 '''
-m = imdb.IMDb()
+m = imdb.IMDb() # Initialize IMDB instance in object ...
 #Search by range.
 r = input("Enter the range to search for 0 - :")
 i = 0
 x = 2000000
 ''' Initialize variables the following variables are extracted in the iteration block.'''
-genre_s = ""
-director_s = ""
-cast_s = ""
-temp_string=u''
-flag=1
-files = open('/home/yourhomefolder/','w')
+genre_s = ""    # Genre Of the Movie
+director_s = ""  # Director of the Movie
+cast_s = "" # Cast of the Movie
+temp_string=u''  # For Fixing Charset encoading issue.
+flag=1 # If there is a error during extracting DB from IMDB internet DB then set flag to zero - if flag is zero - dont write to file.
+files = open('/home/yourhomefolder/','w')  # Write to the respective file.
 while i <= r :
 
     '''Get movie method calls the movie parameters as per the required movie number.'''
-
+        # Initialize Unicode Strings to avoid Charset Encoading Conflict Issues.
         movie = m.get_movie(`x`)
         genre_s =u""
         director_s =u""
