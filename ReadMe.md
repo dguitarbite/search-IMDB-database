@@ -2,7 +2,7 @@ Well Im making this repository for people like me who are lazy want a huge datab
 
 you will need to have installed imdb packages 
 ::
-    #apt-get install imdb-tools
+   #apt-get install imdb-tools
 
 well this should work with nearly all debian systems. 
 
@@ -17,10 +17,10 @@ Well the program will ask you for the range for which you want to add the databa
 have complete database.
 I am really lazy so ive created a small parsing snippet myselves , just to avoid the monotonus parsing work.... :D
 ::
-    i = i[i.find('_')+1:]
-    i = i[0:i.find('_')]
+   i = i[i.find('_')+1:]
+   i = i[0:i.find('_')]
 
-If you guys want to contact me , just shoot an email to me @ : `pps.pranav@gmail.com`
+If you guys want to contact me , just shoot an email to me @  `pps.pranav@gmail.com`
 and you are free to shoot abuse, arrows, bullets what every your countries law allows you to ... 
 but suggestions are more than welcome.
 
